@@ -1,4 +1,5 @@
 # EC2
+
 * disable_api_termination
   * 終了保護を有効にする場合「true」とする
 * iam_instance_profile
