@@ -27,7 +27,7 @@ AWSのElastic IPは、固定的なパブリックIPv4アドレスを提供しま
 1. ElasticIPの作成:
    * **ElasticIP.tf**ファイルに以下のコードを追加します。
         ```
-        resource "aws_eip" "my_eip" {
+        resource "aws_eip" "sample_eip" {
             vpc = true  # VPC内でElastic IPを使用する場合はtrueにします
         }
         ```
